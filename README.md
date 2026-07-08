@@ -1,84 +1,32 @@
 # first-project
-my first GitHub repository
-I am learning GitHub with chatGPT
 
-<html>
-<head>
-    <title>My first Website</title>
-</head>
-<body>
-    <h1>Welcome</h1>
+My first GitHub repository — I'm learning GitHub with ChatGPT.
 
-    <p>My name is abdellah.</p>
+This repository now includes a simple static website. Files:
 
-<button>Click Here</button>
-     <br>
-     <br>
- <img src="https://picsum.photos/300" alt="random image">
-<br>
-<br>
-<a href="http://github.com" target="_blank">visit Github</a>
+- `index.html` — the project homepage (moved from the README HTML).
+- `css/style.css` — basic styling for the site.
+- `js/script.js` — small client-side script for the contact form.
 
+View the site locally:
 
-</body>
-</html>
+1. Clone the repo: `git clone https://github.com/abdellahagnou/first-project.git`
+2. Open `index.html` in your browser.
 
-<h2>MY Hobbies</h2>
+Publish with GitHub Pages:
 
-<ul>
-     <li>football</li>
-     <li>Gaming</li>
-     <li>programming</li>
-</ul>
+1. Go to your repository Settings → Pages.
+2. Choose the branch (usually `main` or `master`) and the root folder `/`.
+3. Save and wait a minute — your site will be available at `https://abdellahagnou.github.io/first-project/`.
 
-<h2>MY Goals</h2>
+What I fixed/changed:
 
-<ol>
-     <li>learn HTML</li>
-     <li>learn CSS</li>
-     <li>learn JavaScript</li>
-</ol>
+- Extracted the HTML from the README into `index.html`.
+- Corrected typos ("Javascripte" → "JavaScript", "biginner" → "Beginner").
+- Structured the contact form and added a small JavaScript handler in `js/script.js`.
 
-<h2>MY Skills</h2>
+If you'd like I can also add a LICENSE, enable GitHub Pages for you, or open a pull request instead of committing directly to the default branch.
 
-<table border="1">
-     <tr>
-          <th>level</th>
-          <th>skill</th>
-     </tr>
-     <tr>
-          <td>Beginner</td>
-          <td>HTML</td>
-     </tr>
-     <tr>
-          <td>Beginner</td>
-          <td>CSS</td>
-     </tr>
-     <tr>
-          <td>Beginner</td>
-          <td>Javascripte</td>
-     </tr>
-     <tr>
-          <td>biginner</td>
-          <td>soon</td>
+---
 
-</table>
-
-<h2>Contact Me</h2>
-
-<label>Name:</label>
-<input type="text">
-
-<br><br>
-
-<label>Email:</label>
-<input type="email">
-
-<br><br>
-
-<label>password:</label>
-<input type="password">
-
-<br><br>
-<button>Submit</button>
-
+Author: abdellahagnou
