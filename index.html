@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My first Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Welcome</h1>
+      <p>My name is Abdellah.</p>
+    </header>
+
+    <section class="hero">
+      <img src="https://picsum.photos/600/300" alt="random image">
+      <p><a href="https://github.com" target="_blank" rel="noopener">Visit GitHub</a></p>
+    </section>
+
+    <section>
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Football</li>
+        <li>Gaming</li>
+        <li>Programming</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Goals</h2>
+      <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>My Skills</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>Skill</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Beginner</td>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td>Beginner</td>
+            <td>CSS</td>
+          </tr>
+          <tr>
+            <td>Beginner</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td>Beginner</td>
+            <td>More coming soon</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password">
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage" role="status" aria-live="polite"></p>
+    </section>
+
+    <footer>
+      <p>Made by abdellahagnou</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
